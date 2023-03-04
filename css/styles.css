@@ -15,6 +15,10 @@ body {
     max-height: 39rem;
 }
 
+.img-resto {
+    background-color: rgb(251, 225, 176);
+}
+
 @media (max-width: 768px) {
     #intro {
         width: 90% !important;
