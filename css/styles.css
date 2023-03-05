@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
 
 body {
     font-family: 'Inter', sans-serif;
-    overflow-x: hidden;
-}
-
-.header-bar {
-    background-color: black;
 }
 
 #menu li > a {
@@ -19,12 +13,15 @@ body {
     max-height: 39rem;
 }
 
-.img-resto {
+.box-img-resto, .img-back, footer, .header-bar {
     background-color: black;
 }
 
-.img-back {
-    background-color: black;
+.images-restaurants {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .form-email {
@@ -34,28 +31,54 @@ body {
 }
 
 footer {
-    background-color: black;
     min-height: 100px;
 }
 
 footer p {
     color: white;
-    /* text-align: left; */
 }
 
-/* #icons {
-    text-align: right;
-} */
 
 #icons i {
     padding: 0 8px;
     color: white;
 }
 
+.box-food {
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.info-contact {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.info-job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-map {
+    max-height: 340px;
+}
+
+@media (max-width: 576px) {
+    .img-map {
+        width: 80% !important;
+    }
+}
+
 @media (max-width: 768px) {
     #intro {
         width: 90% !important;
     }
+    .img-map {
+        width: 80% !important; 
+    }
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
