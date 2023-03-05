@@ -5,6 +5,10 @@ body {
     overflow-x: hidden;
 }
 
+.header-bar {
+    background-color: black;
+}
+
 #menu li > a {
     font-size: 18px;
     font-weight: 600;
@@ -16,7 +20,13 @@ body {
 }
 
 .img-resto {
-    background-color: rgb(251, 225, 176);
+    background-color: black;
+}
+
+.img-back {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 768px) {
@@ -24,3 +34,5 @@ body {
         width: 90% !important;
     }
 }
+
+
