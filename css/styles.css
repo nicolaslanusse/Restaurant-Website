@@ -42,12 +42,12 @@ footer {
 
 footer p {
     color: white;
-    text-align: left;
+    /* text-align: left; */
 }
 
-#icons {
+/* #icons {
     text-align: right;
-}
+} */
 
 #icons i {
     padding: 0 8px;
