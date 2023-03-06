@@ -6,7 +6,7 @@ I designed this website for a restaurant that shows a main page, the food menu a
 
 ## Getting Started 💻
 
-You can enter the website and see everything on your own. [Enter here.](#https://nicolaslanusse.github.io/Restaurant-Website/)
+You can enter the website and see everything on your own. [Enter here.](https://nicolaslanusse.github.io/Restaurant-Website/)
 
 ## Built with ⚒️
 
